@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Trusted Veterinarians",
   description:
     "Members-only means you and your pet can always see a vet when you need one. Plus, you get priority access to the best board-certified specialists.",
-  buttonLabel: "Get Started",
+  buttonLabel: "About Us",
   imgStart: false,
   img: require("../../images/svg-1.svg"),
   alt: "Car",
@@ -43,7 +43,7 @@ export const homeObjThree = {
   headline: "Simplified care plans",
   description:
     "Modern, state-of-the-art practices designed by animal behavior specialists will make your pet feel right at home. We welcome walk-in appointments.",
-  buttonLabel: "Start Now",
+  buttonLabel: "Sign Up",
   imgStart: true,
   img: require("../../images/svg-3.svg"),
   alt: "Papers",

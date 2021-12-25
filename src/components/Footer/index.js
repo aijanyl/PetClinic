@@ -34,15 +34,15 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/sign-up">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
+              <FooterLink to="/aboutus">About Us</FooterLink>
+              <FooterLink to="/plans">Plans</FooterLink>
               <FooterLink to="/">Careers</FooterLink>
               <FooterLink to="/">Investors</FooterLink>
               <FooterLink to="/">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to="/">Contact</FooterLink>
+              <FooterLink to="/contactus">Contact</FooterLink>
               <FooterLink to="/">Support</FooterLink>
               <FooterLink to="/">Destinations</FooterLink>
               <FooterLink to="/">Sponsorships</FooterLink>
@@ -50,8 +50,8 @@ const Footer = () => {
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to="/">Submit Video</FooterLink>
+              <FooterLinkTitle>Sign Up</FooterLinkTitle>
+              <FooterLink to="/signup">Sign up</FooterLink>
               <FooterLink to="/">Ambassadors</FooterLink>
               <FooterLink to="/">Agency</FooterLink>
               <FooterLink to="/">Influencer</FooterLink>

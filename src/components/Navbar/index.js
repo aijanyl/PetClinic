@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 import {
   MobileIcon,
@@ -84,7 +85,6 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   to="signup"
-                  smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
